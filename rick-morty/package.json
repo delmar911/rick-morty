@@ -1,0 +1,21 @@
+{
+  "name": "rick-morty",
+  "description": "Webcomponent rick-morty following open-wc recommendations",
+  "license": "MIT",
+  "author": "rick-morty",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "@vaadin/router": "^2.0.0",
+    "lit": "^3.1.4"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.10.3",
+    "@web/dev-server": "^0.4.6"
+  },
+  "customElements": "custom-elements.json"
+}
