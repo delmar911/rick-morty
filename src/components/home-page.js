@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import "./rick-morty";
 
-const logoNombre = new URL("../../assets/logoPortal.png", import.meta.url)
+const logoNombre = new URL("../../assets/logoNombre.svg", import.meta.url)
   .href;
 const logoPortal = new URL("../../assets/logoPortal.png", import.meta.url).href;
 
